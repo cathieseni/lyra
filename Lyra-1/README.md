@@ -34,7 +34,6 @@ The ability to generate virtual environments is crucial for applications ranging
 
 Please follow the [INSTALL.md](INSTALL.md) to set up your conda environment and download pre-trained weights.
 
-> **Personal note:** I had to use Python 3.10 instead of 3.11 to avoid a compatibility issue with one of the CUDA extension builds on my machine. If you run into build errors, try downgrading to Python 3.10.
-
-## Demo
-Lyra supports both images and videos as input. Below are examples of running Lyra on sing
+> **Personal note:** I had to use Python 3.10 instead of 3.11 to avoid a compatibility issue with
+> some of the CUDA extensions (specifically `diff-gaussian-rasterization`). If you run into build
+> errors during `pip install`, try switching to 3.10 first — saved me a couple of hours of debugging.
